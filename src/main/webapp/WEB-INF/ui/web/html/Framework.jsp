@@ -29,11 +29,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<jsp:include page="framework/TopMenuItem.jsp" />
 	<jsp:include page="framework/LeftMenu.jsp" />
 	<jsp:include page="framework/Content.jsp" />
-	<input type="button" name="button" value="tt" onclick="tt()">
-	<form action="WebFrame/Index.dsr" Method="POST">
-		<input type="text" name="test" value="中国"/>
-		<input type="submit" name="submit" value="submit"/>
-	</form>
 	<div id="end_bg">
 		<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. </p>
 		<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
